@@ -1,0 +1,38 @@
+Claves = [
+    "codigo", "producto", "precio_compra",
+    "precio_venta", "stock"
+]
+
+RegistroS = [
+    {1, "Barbacoa, 10.50, 20.00, 6}
+    {2, "Salsa", 13.00, 16.00, 7}
+    {3, "Mayonesa", 15.00, 18.00, 8}
+    {4, "Mostaza", 14.00, 16.00, 4}
+]
+
+# Esto es un comentario válido
+
+'''
+
+Esto es un comentario multilinea válido
+Puede abarcar varias líneas
+'''
+
+imprimir("Reporte de");
+imprimir("Abarroteria");
+imprimiRln("Reporte de");
+imprimirln();
+conteo();
+promedio("stock");
+contarsi("stock", 0);
+contarsi("stock", 1);
+contarsi("stock", 2);
+
+# El siguiente código contiene un error léxico intencional
+sumaR("stock");  # Debería ser "sumar" en lugar de "sumaR"
+
+max("precio_venta");
+min("precio_compra");
+
+# El siguiente código contiene un error léxico intencional
+xportarReporte("Reporte HTML de abarroteria");

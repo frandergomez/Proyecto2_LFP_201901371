@@ -1,0 +1,10 @@
+# Datos con errores
+Claves = [
+    "codigo", "producto", "precio_compra", "precio_venta"
+]
+
+Registros = [
+    {1, "Barbacoa", 10.50, "veinte"}  # Error: "veinte" no es un número válido
+    {2, "Salsa", "trece", 16.00}  # Error: "trece" no es un número válido
+    {3, "Mayonesa", 15.00, 18.00}
+]
